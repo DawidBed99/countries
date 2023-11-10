@@ -11,7 +11,7 @@
   display: flex;
   justify-content: start;
   flex-direction: column;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .backBTN {
   width: 100px;
