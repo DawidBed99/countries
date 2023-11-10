@@ -40,7 +40,7 @@ const Single = (props) => {
     return (
       <button
         onClick={() => {
-          navigate(`/${item.cca2}`);
+          navigate(`/countries/${item.cca2}`);
           window.location.reload();
         }}
         className="borderBTN"
@@ -157,7 +157,7 @@ const Single = (props) => {
       <Navbar setMode={setMode} mode={mode} />
       <div className="singleLowerContainer">
         <button
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/countries")}
           className="backBTN"
           style={{
             background: mode === "light" ? "white" : "hsl(209, 23%, 22%)",
