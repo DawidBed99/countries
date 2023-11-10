@@ -58,7 +58,7 @@ const Main = (props) => {
         }}
       >
         <img
-        alt=""
+          alt=""
           onClick={() => navigate(`/${item.cca2}`)}
           className="flag"
           src={item.flags.png}
@@ -150,11 +150,10 @@ const Main = (props) => {
               className="regions"
               id="regions"
               onClick={() => {
-                
-                  arrowDown === "block"
-                    ? setArrowDown("none")
-                    : setArrowDown("block");
-                
+                arrowDown === "block"
+                  ? setArrowDown("none")
+                  : setArrowDown("block");
+
                 arrowUp === "none" ? setArrowUp("block") : setArrowUp("none");
               }}
               style={{

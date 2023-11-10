@@ -65,7 +65,7 @@ const Single = (props) => {
     return (
       <div key={item.name.common} className="singleCountryContainer">
         <img
-        alt=""
+          alt=""
           className="flagImg"
           src={item.flags.png}
           style={{
