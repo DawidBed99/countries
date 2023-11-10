@@ -78,7 +78,7 @@
 .rightContainer {
   margin-left: 100px;
 }
-@media only screen and (width<= 375px) {
+@media only screen and (width<= 475px) {
   .singleCountryContainer {
     flex-direction: column;
     align-items: center;

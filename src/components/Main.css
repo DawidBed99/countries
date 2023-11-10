@@ -162,7 +162,7 @@
 .option:hover {
   background: rgb(157, 156, 156);
 }
-@media only screen and (width<= 375px) {
+@media only screen and (width<= 500px) {
   .countriesContainer {
     flex-direction: column;
     flex-wrap: nowrap;

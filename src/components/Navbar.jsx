@@ -22,8 +22,8 @@ const Navbar = ({ mode, setMode }) => {
               ? "0px 0px 4px 0px hsl(0, 0%, 58%)"
               : "0px 0px 4px 0px black",
           padding: { xs: "0px", sm: "10px" },
-          paddingLeft: { xs: "5px", sm: "40px" },
-          paddingRight: { xs: "5px", sm: "40px" },
+          paddingLeft: { xs: "15px", sm: "40px" },
+          paddingRight: { xs: "15px", sm: "40px" },
           bgcolor: mode === "light" ? "white" : "hsl(207, 26%, 17%)",
         }}
       >
