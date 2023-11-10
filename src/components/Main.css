@@ -163,6 +163,9 @@
   background: rgb(157, 156, 156);
 }
 @media only screen and (width<= 500px) {
+  .mainContainer {
+    overflow: hidden;
+  }
   .countriesContainer {
     flex-direction: column;
     flex-wrap: nowrap;
