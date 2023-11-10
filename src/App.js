@@ -26,9 +26,12 @@ export default function App() {
     >
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Main setMode={setMode} mode={mode} />} />
           <Route
-            path="/:code"
+            path="/countries/"
+            element={<Main setMode={setMode} mode={mode} />}
+          />
+          <Route
+            path="/countries/:code"
             element={<Single setMode={setMode} mode={mode} />}
           />
         </Routes>
