@@ -1,0 +1,18 @@
+.MyCustomButton:hover {
+  background-color: inherit !important;
+}
+#pageTitle {
+  font-size: 26px;
+}
+#darkBTNPar {
+  font-size: 20px;
+}
+
+@media only screen and (width<= 375px) {
+  #pageTitle {
+    font-size: 12px;
+  }
+  #darkBTNPar {
+    font-size: 12px;
+  }
+}

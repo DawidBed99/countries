@@ -1,0 +1,119 @@
+.singleContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  flex-direction: column;
+  align-items: center;
+}
+.singleLowerContainer {
+  width: 1400px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.backBTN {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  background: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 0px 6px 0px rgb(155, 154, 154);
+  cursor: pointer;
+}
+.singleCountryContainer {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.flagImg {
+  height: 320px;
+}
+.moreDetailsContainer {
+  display: flex;
+  gap: 200px;
+  height: 240px;
+}
+.detailsCountryName {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.moreDetailsContainerLeft,
+.moreDetailsContainerRight {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.moreDetailsContainerRight {
+  height: 100px;
+  margin-top: 65px;
+}
+.borderContainer {
+  display: flex;
+  margin-top: 80px;
+  align-items: center;
+}
+.borderBTNContainer {
+  display: flex;
+  width: 460px;
+  gap: 10px;
+  margin-left: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.borderBTN {
+  border: none;
+  padding: 8px;
+  width: 100px;
+  background: rgb(253, 251, 251);
+  border-radius: 3px;
+  box-shadow: 0px 0px 6px 0px rgb(189, 189, 189);
+  cursor: pointer;
+}
+.rightContainer {
+  margin-left: 100px;
+}
+@media only screen and (width<= 375px) {
+  .singleCountryContainer {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .singleLowerContainer {
+    flex-direction: column;
+    width: 350px;
+    margin-top: 30px;
+  }
+  .flagImg {
+    width: 330px;
+    height: 230px;
+  }
+  .rightContainer {
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    gap: 100px;
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  .moreDetailsContainer {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .borderContainer {
+    flex-direction: column;
+    gap: 30px;
+    align-items: flex-start;
+  }
+  .borderBTNContainer {
+    width: 330px;
+    margin: 0;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+  }
+}
