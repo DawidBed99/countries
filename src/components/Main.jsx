@@ -59,7 +59,7 @@ const Main = (props) => {
       >
         <img
           alt=""
-          onClick={() => navigate(`/countries/${item.cca2}`)}
+          onClick={() => navigate(`/${item.cca2}`)}
           className="flag"
           src={item.flags.png}
           style={{

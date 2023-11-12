@@ -42,7 +42,7 @@ const Navbar = ({ mode, setMode }) => {
               cursor: "pointer",
             }}
             onClick={() => {
-              navigate("/countries/");
+              navigate("/");
             }}
           >
             Where in the world?
