@@ -173,6 +173,7 @@ const Single = (props) => {
         </button>
         {list}
       </div>
+ 
     </div>
   );
 };

@@ -24,7 +24,7 @@ export default function App() {
         background: mode === "light" ? "hsl(0, 0%, 98%)" : "hsl(207, 26%, 17%)",
       }}
     >
-      <BrowserRouter>
+      <BrowserRouter basename="/countries">
         <Routes>
           <Route
             path="/countries/"

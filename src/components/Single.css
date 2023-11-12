@@ -32,7 +32,11 @@
   justify-content: space-between;
 }
 .flagImg {
-  height: 320px;
+  width: 35%;
+  min-width: 300px;
+  object-fit: cover;
+  object-position: center center;
+  aspect-ratio: 16/9;
 }
 .moreDetailsContainer {
   display: flex;
@@ -93,8 +97,8 @@
     margin-top: 30px;
   }
   .flagImg {
-    width: 330px;
-    height: 230px;
+    width: 380px;
+    height: 250px;
   }
   .rightContainer {
     display: flex;
