@@ -1,5 +1,14 @@
 # REST Countries API with color theme switcher
+This is a solution to the [REST Countries API with color theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
 <img width="700" alt="Light" src="https://github.com/DawidBed99/countries/assets/128499430/83afc46c-2c51-4c5d-9134-0cc1b8cae4d4">
 <img width="700" alt="Dark" src="https://github.com/DawidBed99/countries/assets/128499430/5234dd40-bf10-439e-be84-093e6fec1a33">
