@@ -1,4 +1,4 @@
-# countries
+# REST Countries API with color theme switcher
 
 
 <img width="700" alt="Light" src="https://github.com/DawidBed99/countries/assets/128499430/83afc46c-2c51-4c5d-9134-0cc1b8cae4d4">
