@@ -43,7 +43,6 @@ In this project, main topic was about fetching data from REST API and showing it
 - React.js
 - React Router
 - REST API
-- RWD
 - Material UI
 
 ### What I learned
